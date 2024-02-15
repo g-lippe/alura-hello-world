@@ -9,11 +9,9 @@ export default function Menu() {
   return (
     <header>
       <nav className={styles.navegacao}>
-        <MenuLink>
-          Inicio
-        </MenuLink>
+        <MenuLink to='/'> Inicio </MenuLink>
 
-        <Link className={styles.link} to="/sobremim"> Sobre mim </Link>
+        <MenuLink to='/sobremim'> Sobre Mim </MenuLink>
       </nav>
     </header>
   )
